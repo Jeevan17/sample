@@ -1,0 +1,41 @@
+@font-face {
+    font-family: keepcalm;
+    src: url(fonts/KeepCalm-Medium.ttf);
+}
+
+.main-content{
+	margin-top:30px;
+	font-family:keepcalm;
+	text-align:center;
+	font-size:50px;
+	color: #4286f4;
+	border-bottom:5px solid #ccc;
+}
+
+.club_content{
+	//border: 1px solid #ccc;
+	text-decoration:none;
+	float:left;
+	padding-left:30px;
+}
+
+.club_content>img{
+	margin:30px 0px 0px 20px;
+	//border: 1px solid #ccc;
+	width:300px;
+	height:300px;
+	margin-left:200px;
+}
+
+.club_name{
+	margin-top:10px;
+	text-align:center;
+	width:293px;
+	padding-left:200px;
+	font-family:keepcalm;
+	font-size:20px;
+}
+
+.club_name:hover{
+	color:red;
+}
